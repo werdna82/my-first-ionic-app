@@ -9,5 +9,5 @@ deployment:
             - npm install -g cordova ionic
             - ionic platform add android
             - ionic build android
-            - curl -F "file=platforms/android/build/outputs/apk/android-debug.apk" -F "token=$DEPLOYGATE_TOKEN" -F "message=sample" https://deploygate.com/api/users/$DEPLOYGATE_USER/apps
+            - curl -F "file=/home/ubuntu/my-first-ionic-app/platforms/android/build/outputs/apk/android-debug.apk" -F "token=$DEPLOYGATE_TOKEN" -F "message=sample" https://deploygate.com/api/users/$DEPLOYGATE_USER/apps
             - ionic upload --email $IONIC_EMAIL --password $IONIC_PASSWORD
