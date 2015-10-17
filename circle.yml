@@ -1,0 +1,5 @@
+deployment:
+    branch: development
+    commands:
+        - npm install -g cordova ionic
+        - ionic upload --email $IONIC_EMAIL --password $IONIC_PASSWORD
