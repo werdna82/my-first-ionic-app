@@ -2,6 +2,7 @@ dependencies:
   post:
     - npm install -g gulp
     - bower install
+    - ionic state restore
     
 test:
   override:
