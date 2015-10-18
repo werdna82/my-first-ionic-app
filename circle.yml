@@ -1,6 +1,6 @@
 dependencies:
   post:
-    - npm install -g gulp cordova ionic
+    - npm install -g cordova ionic
     - bower install
     
 test:
