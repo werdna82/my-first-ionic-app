@@ -1,6 +1,8 @@
 dependencies:
+  cache_directories:
+    - node_modules
   post:
-    - npm install -g cordova ionic
+    - npm install cordova ionic
     - bower install
     - ionic state restore
     
